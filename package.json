@@ -1,7 +1,7 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "풀 캘린더",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "수정, 번역된 풀 캘린더. Modified and translated Full Calendar for Korean.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",

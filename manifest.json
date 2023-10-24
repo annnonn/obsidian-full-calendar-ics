@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-full-calendar-kor",
+	"name": "풀 캘린더",
 	"version": "1.0.0",
-	"minAppVersion": "0.15.0",
-	"description": "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"minAppVersion": "0.16.3",
+	"description": "수정, 번역된 풀 캘린더. Modified and translated Full Calendar for Korean.",
+	"author": "Davis Haupt(Modified: annnonn)",
+	"authorUrl": "https://davi.sh",
+	"fundingUrl": "https://ko-fi.com/davish",
 	"isDesktopOnly": false
 }
