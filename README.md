@@ -1,5 +1,7 @@
 # Obsidian Full Calendar plugin for Korean
 
+//TODO I will add a description later
+
 This is a sample plugin for Obsidian (https://obsidian.md).
 
 This project uses Typescript to provide type checking and documentation.
