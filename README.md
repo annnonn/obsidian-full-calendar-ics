@@ -1,4 +1,4 @@
-# Obsidian Sample Plugin
+# Obsidian Full Calendar plugin for Korean
 
 This is a sample plugin for Obsidian (https://obsidian.md).
 
