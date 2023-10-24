@@ -1,98 +1,27 @@
-# Obsidian Full Calendar plugin for Korean
+# 옵시디언 풀 캘린더 플러그인
 
-//TODO I will add a description later
+이 플러그인은 Davis Haupt가 제작한 [옵시디언 풀 캘린더](https://davish.github.io/obsidian-full-calendar/)를 한국 사용자에게 맞게 수정, 번역한 플러그인입니다.
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+옵시디언 풀 캘린더와 특별히 다른 점은, 데일리 노트의 헤딩에서 일정을 등록하는 과정이 간소화되었다는 것, 그리고 노트를 열거나 생성하는 과정이 간편해졌다는 것입니다.
 
-This project uses Typescript to provide type checking and documentation.
-The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.
+그 외 인터페이스 수정 및 버그 수정 등을 적용하였습니다.
 
-**Note:** The Obsidian API is still in early alpha and is subject to change at any time!
+옵시디언 풀 캘린더를 제작한 Davis Haupt를 후원하시려면 아래 링크를 눌러주세요.
 
-This sample plugin demonstrates some of the basic functionality the plugin API can do.
-- Adds a ribbon icon, which shows a Notice when clicked.
-- Adds a command "Open Sample Modal" which opens a Modal.
-- Adds a plugin setting tab to the settings page.
-- Registers a global click event and output 'click' to the console.
-- Registers a global interval which logs 'setInterval' to the console.
+[![Support Davis Haupt on Ko-Fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M1GQ84A)
 
-## First time developing plugins?
+기존의 풀 캘린더 라이브러리는 [MIT 라이센스](https://github.com/fullcalendar/fullcalendar/blob/master/LICENSE.txt)를 준수하며 [Adam Shaw](https://github.com/arshaw)에 의해 제작되었습니다.
 
-Quick starting guide for new plugin devs:
+![샘플 이미지](https://github.com/annnonn/obsidian-full-calendar-kor/blob/master/sample_image.jpg)
 
-- Check if [someone already developed a plugin for what you want](https://obsidian.md/plugins)! There might be an existing plugin similar enough that you can partner up with.
-- Make a copy of this repo as a template with the "Use this template" button (login to GitHub if you don't see it).
-- Clone your repo to a local development folder. For convenience, you can place this folder in your `.obsidian/plugins/your-plugin-name` folder.
-- Install NodeJS, then run `npm i` in the command line under your repo folder.
-- Run `npm run dev` to compile your plugin from `main.ts` to `main.js`.
-- Make changes to `main.ts` (or create new `.ts` files). Those changes should be automatically compiled into `main.js`.
-- Reload Obsidian to load the new version of your plugin.
-- Enable plugin in settings window.
-- For updates to the Obsidian API run `npm update` in the command line under your repo folder.
+---
 
-## Releasing new releases
+Obsidian Full Calendar Kor Plugin
 
-- Update your `manifest.json` with your new version number, such as `1.0.1`, and the minimum Obsidian version required for your latest release.
-- Update your `versions.json` file with `"new-plugin-version": "minimum-obsidian-version"` so older versions of Obsidian can download an older version of your plugin that's compatible.
-- Create new GitHub release using your new version number as the "Tag version". Use the exact version number, don't include a prefix `v`. See here for an example: https://github.com/obsidianmd/obsidian-sample-plugin/releases
-- Upload the files `manifest.json`, `main.js`, `styles.css` as binary attachments. Note: The manifest.json file must be in two places, first the root path of your repository and also in the release.
-- Publish the release.
+This plugin is a modification and translation of Obsidian Full Calendar originally created by Davis Haupt, designed to cater to Korean users.
 
-> You can simplify the version bump process by running `npm version patch`, `npm version minor` or `npm version major` after updating `minAppVersion` manually in `manifest.json`.
-> The command will bump version in `manifest.json` and `package.json`, and add the entry for the new version to `versions.json`
+The unique features of Obsidian Full Calendar include streamlining the process of scheduling events in daily note headings and simplifying the process of opening or creating notes. Additionally, interface modifications and bug fixes have been incorporated.
 
-## Adding your plugin to the community plugin list
+If you wish to support Davis Haupt, the creator of Obsidian Full Calendar, please click on the following link: https://ko-fi.com/M4M1GQ84A
 
-- Check https://github.com/obsidianmd/obsidian-releases/blob/master/plugin-review.md
-- Publish an initial version.
-- Make sure you have a `README.md` file in the root of your repo.
-- Make a pull request at https://github.com/obsidianmd/obsidian-releases to add your plugin.
-
-## How to use
-
-- Clone this repo.
-- Make sure your NodeJS is at least v16 (`node --version`).
-- `npm i` or `yarn` to install dependencies.
-- `npm run dev` to start compilation in watch mode.
-
-## Manually installing the plugin
-
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
-
-## Improve code quality with eslint (optional)
-- [ESLint](https://eslint.org/) is a tool that analyzes your code to quickly find problems. You can run ESLint against your plugin to find common bugs and ways to improve your code. 
-- To use eslint with this project, make sure to install eslint from terminal:
-  - `npm install -g eslint`
-- To use eslint to analyze this project use this command:
-  - `eslint main.ts`
-  - eslint will then create a report with suggestions for code improvement by file and line number.
-- If your source code is in a folder, such as `src`, you can use eslint with this command to analyze all files in that folder:
-  - `eslint .\src\`
-
-## Funding URL
-
-You can include funding URLs where people who use your plugin can financially support it.
-
-The simple way is to set the `fundingUrl` field to your link in your `manifest.json` file:
-
-```json
-{
-    "fundingUrl": "https://buymeacoffee.com"
-}
-```
-
-If you have multiple URLs, you can also do:
-
-```json
-{
-    "fundingUrl": {
-        "Buy Me a Coffee": "https://buymeacoffee.com",
-        "GitHub Sponsor": "https://github.com/sponsors",
-        "Patreon": "https://www.patreon.com/"
-    }
-}
-```
-
-## API Documentation
-
-See https://github.com/obsidianmd/obsidian-api
+The original Full Calendar library adheres to the MIT License and was developed by Adam Shaw.
