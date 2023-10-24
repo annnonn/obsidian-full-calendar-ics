@@ -3,8 +3,8 @@
 	"name": "풀 캘린더",
 	"version": "1.0.0",
 	"minAppVersion": "0.16.3",
-	"description": "수정, 번역된 풀 캘린더. Modified and translated Full Calendar for Korean.",
-	"author": "Davis Haupt(Modified: annnonn)",
+	"description": "Modified and translated Full Calendar for Korean.",
+	"author": "Annnonn(original author:Davis Haupt)",
 	"authorUrl": "https://davi.sh",
 	"fundingUrl": "https://ko-fi.com/davish",
 	"isDesktopOnly": false
