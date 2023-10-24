@@ -1,7 +1,7 @@
 {
 	"name": "풀 캘린더",
 	"version": "1.0.0",
-	"description": "수정, 번역된 풀 캘린더. Modified and translated Full Calendar for Korean.",
+	"description": "Modified and translated Full Calendar for Korean.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
