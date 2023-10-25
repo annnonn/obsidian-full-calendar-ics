@@ -18,7 +18,7 @@
 
 Obsidian Full Calendar Kor Plugin
 
-This plugin is a modification and translation of Obsidian Full Calendar originally created by Davis Haupt, designed to cater to Korean users.
+This plugin is a modified and translated version of Obsidian Full Calendar originally created by Davis Haupt, designed to cater to Korean users.
 
 The unique features of Obsidian Full Calendar include streamlining the process of scheduling events in daily note headings and simplifying the process of opening or creating notes. Additionally, interface modifications and bug fixes have been incorporated. 
 
