@@ -55,12 +55,8 @@
   opacity: 0.8;
 }
 .ofc-checkbox-white {
-  border-color: white !important;
-  border-width: 1px !important;
 }
 .ofc-checkbox-black {
-  border-color: black !important;
-  border-width: 1px !important;
 }
 
 /* node_modules/@fullcalendar/common/main.css */
@@ -835,7 +831,6 @@ a.fc-event:hover {
   font-size: var(--fc-small-font-size, .85em);
 }
 .fc-daygrid-block-event .fc-event-time {
-  font-weight: bold;
 }
 .fc-daygrid-block-event .fc-event-time,
 .fc-daygrid-block-event .fc-event-title {
@@ -1368,6 +1363,14 @@ a.fc-event:hover {
       .fc{
           --fc-border-color: rgb(180, 180, 180);  /*주석. 기본 표 색상.*/
       }
+      .ofc-checkbox-white {
+        border-color: rgb(180,180,180);
+        border-width: 1px;
+      }
+      .ofc-checkbox-black {
+        border-color: rgb(180,180,180);
+        border-width: 1px;
+      }
   }
   /* 다크모드 */
   .theme-dark {
@@ -1404,6 +1407,14 @@ a.fc-event:hover {
       }
       .fc{
           --fc-border-color: rgb(100, 100, 100);  /*주석. 기본 표 색상.*/
+      }
+      .ofc-checkbox-white {
+        border-color: rgb(218, 218, 218);
+        border-width: 1px;
+      }
+      .ofc-checkbox-black {
+        border-color: rgb(218, 218, 218);
+        border-width: 1px;
       }
   }
   
