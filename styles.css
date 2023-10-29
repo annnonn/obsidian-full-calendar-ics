@@ -1418,7 +1418,9 @@ a.fc-event:hover {
       }
   }
   
-  
+  .fc .has-note {
+    text-decoration: underline ;
+  }
   
   
   
