@@ -1378,6 +1378,7 @@ a.fc-event:hover {
         border-width: 1px;
       }
       .fc .fc-daygrid-day-number:hover {
+        /* color: white; */
         background-color: rgb(210,210,210); /* 일자 마우스 올림.*/
       }
   }
@@ -1426,6 +1427,7 @@ a.fc-event:hover {
         border-width: 1px;
       }
       .fc .fc-daygrid-day-number:hover {
+        color: white;
         background-color: rgba(150,150,150); /* 일자 마우스 올림.*/
       }
   }
