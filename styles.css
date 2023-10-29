@@ -709,8 +709,14 @@ a.fc-event:hover {
 .fc .fc-daygrid-day-number {
   position: relative;
   z-index: 4;
-  padding: 4px;
+  padding: 7px;
+  font-size: 1em;
+  padding-bottom: 5px;
+  padding-top: 4px;
 }
+
+
+
 .fc {
 }
 .fc .fc-daygrid-day-events {
@@ -1354,7 +1360,7 @@ a.fc-event:hover {
       }
       .fc .fc-highlight {
           background: rgba(229, 220, 208);	/* 모래색 */
-          background: rgba(202, 223, 235);	/*하이라이트*/
+          background: rgba(202, 223, 235);	/*드래그 하이라이트*/
       }
   
       .fc-daygrid-day-events :hover {
@@ -1370,6 +1376,9 @@ a.fc-event:hover {
       .ofc-checkbox-black {
         border-color: rgb(180,180,180);
         border-width: 1px;
+      }
+      .fc .fc-daygrid-day-number:hover {
+        background-color: rgb(210,210,210); /* 일자 마우스 올림.*/
       }
   }
   /* 다크모드 */
@@ -1400,7 +1409,7 @@ a.fc-event:hover {
           background-color: rgba(100,100,100);
       }
       .fc .fc-highlight {
-          background: rgb(52, 83, 110); /*하이라이트*/
+          background: rgb(52, 83, 110); /*드래그 하이라이트*/
       }
       .fc-daygrid-day-events :hover {
           background-color: transparent;
@@ -1416,13 +1425,16 @@ a.fc-event:hover {
         border-color: rgb(218, 218, 218);
         border-width: 1px;
       }
+      .fc .fc-daygrid-day-number:hover {
+        background-color: rgba(150,150,150); /* 일자 마우스 올림.*/
+      }
   }
   
   .fc .has-note {
     text-decoration: underline ;
   }
   
-  
+
   
   
   
