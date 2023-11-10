@@ -1329,8 +1329,13 @@ a.fc-event:hover {
 }
 /* 공통 적용 */
 .fc .fc-daygrid-day-top {
-    flex-direction: row; /* 일자를 왼쪽으로 정렬함 */
-  }
+	flex-direction: row; /* 일자를 왼쪽으로 정렬함 */
+}
+.fc .fc-day-today {
+	background-color: rgba(100,140,200,0.25) !important ; /* 오늘 날짜 배경 변경*/
+}
+
+
   /* 라이트모드 */
   .theme-light {
       .fc-day *{
@@ -1351,9 +1356,6 @@ a.fc-event:hover {
       }
       .fc-daygrid-dot-event .fc-event-time {
       color: rgb(122, 173, 209);  /* 구글캘린더 이벤트 시간 글자색을 파란색으로 변경 */
-      }
-      .fc .fc-day-today {
-          background-color: rgb(220,220,220); /* 오늘 날짜 배경 변경*/
       }
       .fc-daygrid-day :hover {
           background-color: rgba(240, 240, 240); /* 마우스 올리면 배경 변경 */
@@ -1403,9 +1405,6 @@ a.fc-event:hover {
       .fc-daygrid-dot-event .fc-event-time {
           color: rgb(122, 173, 209);  /* 구글캘린더 이벤트 시간 글자색을 파란색으로 변경 */
       }
-      .fc .fc-day-today {
-          background-color: rgb(80,80,80); /* 오늘 날짜 배경 변경*/
-      }
       .fc-daygrid-day :hover {
           background-color: rgba(100,100,100);
       }
@@ -1431,7 +1430,7 @@ a.fc-event:hover {
         background-color: rgba(150,150,150); /* 일자 마우스 올림.*/
       }
   }
-  
+
   .fc .has-note {
     text-decoration: underline ;
   }
