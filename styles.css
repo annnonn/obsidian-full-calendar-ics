@@ -1467,6 +1467,8 @@ a.fc-event:hover {
   }
 
 
+
+
   /* 모바일에 대한 스타일 설정 */ 
   @media screen and (max-width: 500px) {  
     .fc-daygrid-day-events * {
@@ -1498,6 +1500,7 @@ a.fc-event:hover {
     }
     .fc .fc-dotevent-container {
       display: block;
+      margin-top: -3px;
       margin-bottom: -3px;
     }
     .fc .fc-dotevent-container .fc-event-title {
@@ -1522,7 +1525,19 @@ a.fc-event:hover {
     .fc .fc-daygrid {
       margin-bottom: 20px; 
     }
-
+    .fc .fc-daygrid-day-top{
+      margin: -1px;
+    }
+    .fc .fc-daygrid-day-number{
+      margin: -1px;
+    }
+    .fc .fc-daygrid-day-events{
+      margin-top: -2px;
+    }
+    .fc .fc-event-main-frame{
+      margin-top: -2.5px;
+      margin-bottom: -2.5px;
+    }
   }
   
   
