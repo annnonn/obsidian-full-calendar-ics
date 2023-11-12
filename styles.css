@@ -564,6 +564,12 @@ a.fc-event:hover {
   display: flex;
 }
 .fc-h-event .fc-event-time {
+  display: inline-block;
+  left: 0;
+  right: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  min-width: 0;
   max-width: 100%;
   overflow: hidden;
 }
@@ -846,6 +852,7 @@ a.fc-event:hover {
   display: flex;
   align-items: center;
   padding: 2px 0;
+
 }
 .fc-daygrid-dot-event .fc-event-title {
   flex-grow: 1;
@@ -863,20 +870,22 @@ a.fc-event:hover {
   bottom: -10px;
 }
 .fc-daygrid-event-dot {
-  margin: 0 4px;
+  /* margin: 0 4px;
   box-sizing: content-box;
   width: 0;
   height: 0;
   border: 4px solid #3788d8;
   border: calc(var(--fc-daygrid-event-dot-width, 8px) / 2) solid var(--fc-event-border-color, #3788d8);
   border-radius: 4px;
-  border-radius: calc(var(--fc-daygrid-event-dot-width, 8px) / 2);
+  border-radius: calc(var(--fc-daygrid-event-dot-width, 8px) / 2); */
 }
 .fc-direction-ltr .fc-daygrid-event .fc-event-time {
   margin-right: 3px;
+  /* overflow: hidden; */
 }
 .fc-direction-rtl .fc-daygrid-event .fc-event-time {
   margin-left: 3px;
+  /* overflow: hidden; */
 }
 
 /* node_modules/@fullcalendar/timegrid/main.css */
@@ -1403,7 +1412,6 @@ a.fc-event:hover {
           font-weight: normal;	/* 구글캘린더 이벤트 글자 굵기를 일반으로 변경 */
       }
       .fc-daygrid-dot-event .fc-event-time {
-          color: rgb(122, 173, 209);  /* 구글캘린더 이벤트 시간 글자색을 파란색으로 변경 */
       }
       .fc-daygrid-day :hover {
           background-color: rgba(100,100,100);
@@ -1436,6 +1444,86 @@ a.fc-event:hover {
   }
   
 
+  
+  .fc-daygrid-day-events * {
+    font-size: 1em;
+  }
+  
+  .fc .fc-dotevent-container {
+    display: flex;
+    overflow: hidden;
+  }
+
+  .fc .fc-dotevent-frontcontainer {
+    display: flex;
+  }
+
+  .fc .currentmonth{
+    display: none;
+  }
+
+  .fc .fc-event-main-frame{
+    margin: -1.5px;
+  }
+
+
+  /* 모바일에 대한 스타일 설정 */ 
+  @media screen and (max-width: 1200px) {  
+    .fc-daygrid-day-events * {
+      font-size: 97%;
+      font-size: 91%;
+      padding: 0;
+    }
+    .fc .fc-daygrid-day-number {
+      font-size: 65%;
+      padding: 5px;
+      padding-bottom: 1px;
+      padding-top: 1px;
+    }
+    .fc-daygrid-day-top * {
+      font-size: 50%;
+    }
+    .ofc-checkbox-black {
+      display: none;
+    }
+    .ofc-checkbox-white {
+      display: none;
+    }
+
+    .fc-daygrid-dot-event .fc-event-time {
+      font-size: 50%;
+    }
+    .fc-daygrid-dot-event .fc-daygrid-event-dot {
+      font-size: 50%;
+    }
+    .fc .fc-dotevent-container {
+      display: block;
+      margin-bottom: -3px;
+    }
+    .fc .fc-dotevent-container .fc-event-title {
+      font-size: 80%;
+    }
+    .fc .fc-dotevent-container .fc-dotevent-frontcontainer {
+      margin-bottom: -3px;
+    }
+    .fc .fc-col-header-cell-cushion{
+      font-size: 90%;
+      margin: -3px;
+      padding: -4px;
+      font-weight: normal;
+    }
+
+    .fc .currentmonth{
+      display: flex;
+      justify-content: center; /* 수평 가운데 정렬 */
+      margin-bottom: 5px;
+    }
+
+    .fc .fc-daygrid {
+      margin-bottom: 20px; 
+    }
+
+  }
   
   
   
