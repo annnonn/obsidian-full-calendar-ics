@@ -1457,23 +1457,25 @@ a.fc-event:hover {
   .fc .fc-dotevent-frontcontainer {
     display: flex;
   }
-
+  /* 현재 연월 숨김*/ 
   .fc .currentmonth{
     display: none;
   }
-
+  /* 이벤트 블록 간격*/ 
   .fc .fc-event-main-frame{
     margin: -1.5px;
   }
-
+  /* pc용 닷이벤트 간격*/ 
+  .fc .fc-daygrid-dot-event{
+    margin: -2px;
+  }
 
 
 
   /* 모바일에 대한 스타일 설정 */ 
   @media screen and (max-width: 500px) {  
     .fc-daygrid-day-events * {
-      font-size: 97%;
-      font-size: 91%;
+      font-size: 93%;
       padding: 0;
     }
     .fc .fc-daygrid-day-number {
@@ -1501,7 +1503,7 @@ a.fc-event:hover {
     .fc .fc-dotevent-container {
       display: block;
       margin-top: -3px;
-      margin-bottom: -3px;
+      margin-bottom: -1px;
     }
     .fc .fc-dotevent-container .fc-event-title {
       font-size: 80%;
@@ -1515,21 +1517,23 @@ a.fc-event:hover {
       padding: -4px;
       font-weight: normal;
     }
-
+    /* 모바일에서만 보이는 현재 연월*/ 
     .fc .currentmonth{
       display: flex;
       justify-content: center; /* 수평 가운데 정렬 */
-      margin-bottom: 5px;
+      margin-bottom: 3px;
     }
-
+  
+    /* 모바일 화면 아래 간격*/ 
     .fc .fc-daygrid {
-      margin-bottom: 20px; 
+      margin-bottom: 10px; 
     }
     .fc .fc-daygrid-day-top{
       margin: -1px;
     }
     .fc .fc-daygrid-day-number{
       margin: -1px;
+      margin-bottom: 0px;
     }
     .fc .fc-daygrid-day-events{
       margin-top: -2px;
@@ -1537,6 +1541,16 @@ a.fc-event:hover {
     .fc .fc-event-main-frame{
       margin-top: -2px;
       margin-bottom: -2px;
+    }
+    /* 모바일용 닷이벤트 간격*/ 
+    .fc .fc-daygrid-dot-event{
+      margin: 1px;
+    }
+    /* 플러그인뷰 간격 */ 
+    .app-container .view-content{
+      padding: 5px;
+      padding-top: 0px;
+      padding-bottom: 0px;
     }
   }
   
