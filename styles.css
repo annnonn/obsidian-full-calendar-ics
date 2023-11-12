@@ -1468,7 +1468,7 @@ a.fc-event:hover {
 
 
   /* 모바일에 대한 스타일 설정 */ 
-  @media screen and (max-width: 1200px) {  
+  @media screen and (max-width: 500px) {  
     .fc-daygrid-day-events * {
       font-size: 97%;
       font-size: 91%;
