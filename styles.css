@@ -1462,12 +1462,26 @@ a.fc-event:hover {
     display: none;
   }
   /* 이벤트 블록 간격*/ 
-  .fc .fc-event-main-frame{
-    margin: -1.5px;
+  .fc .fc-event-main-frame {
+    margin: -1px;
+    flex-grow: 0;
   }
   /* pc용 닷이벤트 간격*/ 
-  .fc .fc-daygrid-dot-event{
+  .fc .fc-daygrid-dot-event {
     margin: -2px;
+  }
+  .fc .ofc-checkbox-black{
+    margin: 0px;
+  }
+  .fc .ofc-checkbox-white{
+    margin: 0px;
+  }
+  .fc .fc-event-main .fc-event-time {
+    flex: 0;
+  }
+  .fc .fc-event-main .fc-event-time {
+    flex-grow: 0;
+    min-width: min-content;
   }
 
 
