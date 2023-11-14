@@ -1483,7 +1483,31 @@ a.fc-event:hover {
     flex-grow: 0;
     min-width: min-content;
   }
+  .fc .fc-daygrid-block-event {
+    
+    margin-bottom: 1px;
+  }
 
+  /* 체크박스 간격 */
+.fc .ofc-checkbox-black {
+  margin: 1px;
+  margin-right: 2px;
+}
+.fc .ofc-checkbox-white {
+  margin: 1px;
+  margin-right: 2px;
+}
+
+/* 체크박스+일정제목 세로정렬 */
+.fc .fc-event-title-container * {
+  display: flex;
+  align-items: center;
+}
+/* 체크박스+닷이벤트 제목 세로정렬 */
+.fc .fc-dotevent-container *{
+  display: flex;
+  align-items: center;
+}
 
 
   /* 모바일에 대한 스타일 설정 */ 
@@ -1501,10 +1525,10 @@ a.fc-event:hover {
     .fc-daygrid-day-top * {
       font-size: 50%;
     }
-    .ofc-checkbox-black {
+    .fc .ofc-checkbox-black {
       display: none;
     }
-    .ofc-checkbox-white {
+    .fc .ofc-checkbox-white {
       display: none;
     }
 
