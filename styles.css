@@ -1569,6 +1569,29 @@ a.fc-event:hover {
     .fc .fc-daygrid-block-event .fc-event-time {
       font-size: .85em;
     }
+    .fc .fc-daygrid-block-event .fc-dot {
+      padding: 0px;
+      margin-bottom: -2px;
+    }
+    .fc .fc-event-main-frame{
+      padding: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    .fc .fc-dotevent-frontcontainer .fc-event-time, .fc-daygrid-event-dot{
+      padding: 0px;
+      margin-top: 1px;
+      margin-bottom: -1px;
+    }
+    .fc .fc-dotevent-container .fc-event-title{
+      padding: 0px;
+      margin-bottom: -2px;
+    }
+    .fc .fc-daygrid-event-harness {
+      margin-left: -1px;
+      margin-right: -1px;
+    }
+
   }
   
   
