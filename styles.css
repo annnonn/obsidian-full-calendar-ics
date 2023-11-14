@@ -1566,6 +1566,9 @@ a.fc-event:hover {
       padding-top: 0px;
       padding-bottom: 0px;
     }
+    .fc .fc-daygrid-block-event .fc-event-time {
+      font-size: .85em;
+    }
   }
   
   
