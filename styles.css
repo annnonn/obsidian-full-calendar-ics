@@ -1483,8 +1483,9 @@ a.fc-event:hover {
     flex-grow: 0;
     min-width: min-content;
   }
+
+  /* 블록이벤트 간격 */
   .fc .fc-daygrid-block-event {
-    
     margin-bottom: 1px;
   }
 
@@ -1614,6 +1615,9 @@ a.fc-event:hover {
     .fc .fc-daygrid-event-harness {
       margin-left: -1px;
       margin-right: -1px;
+    }
+    .fc .fc-daygrid-block-event {
+      margin-bottom: 0px;
     }
 
   }
