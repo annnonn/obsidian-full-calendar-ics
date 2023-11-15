@@ -715,19 +715,19 @@ a.fc-event:hover {
 .fc .fc-daygrid-day-number {
   position: relative;
   z-index: 4;
-  padding: 7px;
   font-size: 1em;
-  padding-bottom: 4px;
+  padding: 7px;
+  padding-bottom: 3px;
   padding-top: 3px;
 }
-.fc .fc-daygrid-day-number-mobile {
+/* .fc .fc-daygrid-day-number-mobile {
   position: relative;
   z-index: 4;
   padding: 7px;
   font-size: 1em;
   padding-bottom: 4px;
   padding-top: 3px;
-}
+} */
 
 .fc {
 }
@@ -1527,6 +1527,9 @@ a.fc-event:hover {
 }
 .fc .fc-daygrid-day-number-mobile{
   margin: 0px;
+}
+.fc .fc-daygrid-day-top{
+  margin-bottom: -2px;
 }
 
   /* 모바일에 대한 스타일 설정 */ 
