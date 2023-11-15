@@ -720,8 +720,14 @@ a.fc-event:hover {
   padding-bottom: 4px;
   padding-top: 3px;
 }
-
-
+.fc .fc-daygrid-day-number-mobile {
+  position: relative;
+  z-index: 4;
+  padding: 7px;
+  font-size: 1em;
+  padding-bottom: 4px;
+  padding-top: 3px;
+}
 
 .fc {
 }
@@ -1437,6 +1443,11 @@ a.fc-event:hover {
         color: white;
         background-color: rgba(150,150,150); /* 일자 마우스 올림.*/
       }
+      .fc .fc-daygrid-day-number-mobile:hover {
+        /* 모바일 일자 마우스 올려도 변화 없음.*/
+        background-color: transparent;
+      }
+
   }
 
   .fc .has-note {
@@ -1464,6 +1475,7 @@ a.fc-event:hover {
   /* 이벤트 블록 간격*/ 
   .fc .fc-event-main-frame {
     margin: -1px;
+    margin-top: 0px;
     flex-grow: 0;
   }
   /* pc용 닷이벤트 간격*/ 
@@ -1510,6 +1522,12 @@ a.fc-event:hover {
   align-items: center;
 }
 
+.fc .fc-daygrid-day-number{
+  margin: 1px;
+}
+.fc .fc-daygrid-day-number-mobile{
+  margin: 0px;
+}
 
   /* 모바일에 대한 스타일 설정 */ 
   @media screen and (max-width: 500px) {  
@@ -1517,12 +1535,14 @@ a.fc-event:hover {
       font-size: 93%;
       padding: 0;
     }
+    /* 날짜 숫자 */
     .fc .fc-daygrid-day-number {
       font-size: 65%;
       padding: 5px;
       padding-bottom: 1px;
       padding-top: 1px;
     }
+
     .fc-daygrid-day-top * {
       font-size: 50%;
     }
@@ -1571,8 +1591,7 @@ a.fc-event:hover {
       margin: -1px;
     }
     .fc .fc-daygrid-day-number{
-      margin: -1px;
-      margin-bottom: 0px;
+      margin: 1px;
     }
     .fc .fc-daygrid-day-events{
       margin-top: -2px;
