@@ -1375,10 +1375,7 @@ a.fc-event:hover {
       .fc-daygrid-day :hover {
           background-color: rgba(240, 240, 240); /* 마우스 올리면 배경 변경 */
       }
-      .fc .fc-highlight {
-          background: rgba(229, 220, 208);	/* 모래색 */
-          background: rgba(202, 223, 235);	/*드래그 하이라이트*/
-      }
+
   
       .fc-daygrid-day-events :hover {
           background-color: transparent;	/* 이벤트에는 마우스 올려도 배경 변경하지 않도록 조정 */
@@ -1398,6 +1395,11 @@ a.fc-event:hover {
         /* color: white; */
         background-color: rgb(210,210,210); /* 일자 마우스 올림.*/
       }
+
+      .fc .fc-highlight {
+        background: rgba(229, 220, 208);	/* 모래색 */
+        background: rgba(202, 223, 235);	/*드래그 하이라이트*/
+    }
   }
   /* 다크모드 */
   .theme-dark {
@@ -1443,9 +1445,9 @@ a.fc-event:hover {
         color: white;
         background-color: rgba(150,150,150); /* 일자 마우스 올림.*/
       }
-      .fc .fc-daygrid-day-number-mobile:hover {
-        /* 모바일 일자 마우스 올려도 변화 없음.*/
-        background-color: transparent;
+
+      .fc .fc-highlight {
+        background: rgb(52, 83, 110); /*드래그 하이라이트*/
       }
 
   }
@@ -1640,6 +1642,25 @@ a.fc-event:hover {
     }
     .fc .fc-daygrid-block-event {
       margin-bottom: 0px;
+    }
+
+    .fc .fc-daygrid-day :hover {
+      background-color: transparent;
+    }
+    
+
+    .theme-dark {
+      .fc .fc-daygrid-day-number-mobile:hover {
+        /* 모바일 일자 마우스 올려도 변화 없음.*/
+        background-color: transparent;
+      }
+    }
+    .theme-light{
+      .fc .fc-daygrid-day-number-mobile:hover {
+        /* 모바일 일자 마우스 올려도 변화 없음.*/
+        background-color: transparent;
+        color: transparent;
+      }
     }
 
   }
