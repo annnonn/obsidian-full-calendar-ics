@@ -1746,11 +1746,9 @@ margin: 0px;
     }
 
     .fc .fc-daygrid-event-harness-abs .fc-daygrid-block-event  {
-      margin-top: 2px;
-      margin-bottom: -1px;
+      margin-top: 0px;
+      margin-bottom: 1px;
     }
-
-
 
   }
   
