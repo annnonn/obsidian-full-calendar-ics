@@ -1601,6 +1601,9 @@ margin: 0px;
   margin-bottom: 0px;
 }
 
+.fc .fc-daygrid-dot-event{
+	margin-top: -1px;
+}
 
 
   /* 모바일에 대한 스타일 설정 */ 
