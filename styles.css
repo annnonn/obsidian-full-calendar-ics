@@ -1513,7 +1513,7 @@ a.fc-event:hover {
 
   /* 블록이벤트 간격 */
   .fc .fc-daygrid-block-event {
-    margin-bottom: 0px;
+    margin-bottom: -2px;
   }
   /* 하루 초과 블록 간격 */
   .fc .fc-daygrid-event-harness-abs{
@@ -1547,20 +1547,15 @@ a.fc-event:hover {
 .fc .fc-daygrid-day-number-mobile{
   margin: 0px;
 }
-.fc .fc-daygrid-day-top{
-  margin-bottom: -2px;
-}
+
 .fc .fc-daygrid-event-harness  {
   margin-bottom: 1px;
 }	
 
 
-.fc .fc-daygrid-block-event {
- margin-top: 1px;
-  margin-bottom: 1px;
-}
+
 .fc .fc-daygrid-event {
- margin-top: 2px;
+  margin-top: 2px;
   margin-bottom: 0px;
 }
 
@@ -1580,11 +1575,12 @@ margin: 0px;
 }
 
 .fc .fc-daygrid-event-harness-abs .fc-daygrid-block-event {
-margin-bottom: -3px;
+  margin-bottom: -3px;
 }
+
 .fc .fc-event-time{
-padding-top: 1px;
-margin: 0px;
+  padding-top: 1px;
+  margin: 0px;
 }
 .fc .fc-daygrid-event-harness-abs .fc-daygrid-block-event  {
   margin-top: 3px;
@@ -1597,9 +1593,12 @@ margin: 0px;
 	margin: 1px;
   white-space: nowrap;
 }
-
-.fc .fc-daygrid-day-bottom{
-  margin-bottom: -2px;
+.fc .fc-daygrid-block-event {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.fc .fc-daygrid-day-top{
+  margin-bottom: 0px;
 }
 
 
