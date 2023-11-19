@@ -1496,6 +1496,7 @@ a.fc-event:hover {
   /* pc용 닷이벤트 간격*/ 
   .fc .fc-daygrid-dot-event {
     margin: -2px;
+    margin-top: -2px;
   }
   .fc .ofc-checkbox-black{
     margin: 0px;
@@ -1686,7 +1687,7 @@ margin: 0px;
     }
     /* 모바일용 닷이벤트 간격*/ 
     .fc .fc-daygrid-dot-event{
-      margin: 1px;
+      margin: -1px;
     }
     /* 플러그인뷰 간격 */ 
     .app-container .view-content{
@@ -1711,10 +1712,14 @@ margin: 0px;
       margin-top: 2px;
       margin-bottom: -1px;
     }
+    .fc .fc-dotevent-container{
+      margin-bottom: 1px;
+    }
     .fc .fc-dotevent-container .fc-event-title{
       padding: 0px;
-      margin-bottom: -2px;
+      /* min-height: max-content; */
     }
+
     .fc .fc-daygrid-event-harness {
       margin-left: -1px;
       margin-right: -1px;
