@@ -1491,6 +1491,7 @@ a.fc-event:hover {
     margin: -1px;
     margin-top: -1px;
     margin-bottom: -1px;
+    margin-left: 0px;
     flex-grow: 0;
   }
   /* pc용 닷이벤트 간격*/ 
@@ -1599,6 +1600,7 @@ margin: 0px;
 .fc .fc-daygrid-block-event {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: -1px;
 }
 .fc .fc-daygrid-day-top{
   margin-bottom: 0px;
@@ -1608,6 +1610,10 @@ margin: 0px;
 	margin-top: -1px;
 }
 
+.fc .fc-daygrid-event-harness{
+	margin-left: -1px;
+	margin-right: -1px;
+}
 
   /* 모바일에 대한 스타일 설정 */ 
   @media screen and (max-width: 500px) {  
@@ -1688,6 +1694,7 @@ margin: 0px;
     /* 모바일용 닷이벤트 간격*/ 
     .fc .fc-daygrid-dot-event{
       margin: -1px;
+      margin-bottom: 0px;
     }
     /* 플러그인뷰 간격 */ 
     .app-container .view-content{
@@ -1756,6 +1763,10 @@ margin: 0px;
     .fc .fc-daygrid-event-harness-abs .fc-daygrid-block-event  {
       margin-top: 0px;
       margin-bottom: 1px;
+    }
+
+    .fc .fc-daygrid-event-harness .fc-dotevent-container{
+      
     }
 
   }
