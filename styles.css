@@ -1582,9 +1582,11 @@ margin: 0px;
   padding-top: 1px;
   margin: 0px;
 }
+
+/* 하루 초과 블록이벤트 간격 */
 .fc .fc-daygrid-event-harness-abs .fc-daygrid-block-event  {
-  margin-top: 3px;
-  margin-bottom: -2px;
+  margin-top: 0px;
+  margin-bottom: 1px;
 }
 
 .fc .fc-more-link{
@@ -1745,6 +1747,7 @@ margin: 0px;
       }
     }
 
+    /* 하루 초과 블록이벤트 간격 */
     .fc .fc-daygrid-event-harness-abs .fc-daygrid-block-event  {
       margin-top: 0px;
       margin-bottom: 1px;
