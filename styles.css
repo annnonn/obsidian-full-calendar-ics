@@ -1667,7 +1667,7 @@ margin: 0px;
       margin-bottom: 10px; 
     }
     .fc .fc-daygrid-day-top{
-      margin: -1px;
+      margin: 0px;
     }
     .fc .fc-daygrid-day-number{
       margin: 1px;
@@ -1715,13 +1715,18 @@ margin: 0px;
       margin-right: -1px;
     }
     .fc .fc-daygrid-block-event {
-      margin-bottom: -2px;
+      margin-bottom: 0px;
     }
+
 
     .fc .fc-daygrid-day :hover {
       background-color: transparent;
     }
     
+    .fc .fc-more-link{
+      padding: 0px;
+      margin-top: 0px;
+    }
 
     .theme-dark {
       .fc .fc-daygrid-day-number-mobile:hover {
