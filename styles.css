@@ -1399,7 +1399,12 @@ a.fc-event:hover {
       .fc .fc-highlight {
         background: rgba(229, 220, 208);	/* 모래색 */
         background: rgba(202, 223, 235);	/*드래그 하이라이트*/
-    }
+      }
+
+        .fc .fc-more-link{
+        color: rgb(0, 0, 0);
+      }
+
   }
   /* 다크모드 */
   .theme-dark {
@@ -1450,13 +1455,20 @@ a.fc-event:hover {
         background: rgb(52, 83, 110); /*드래그 하이라이트*/
       }
 
+      .fc .fc-more-link{
+        color: rgb(255, 255, 255);
+      }
+
   }
 
   .fc .has-note {
     text-decoration: underline ;
   }
   
-
+  .fc .fc-daygrid-day-bottom{
+    font-size: 1em;
+    padding: 0px;
+  }
   
   .fc-daygrid-day-events * {
     font-size: 1em;
@@ -1579,7 +1591,16 @@ margin: 0px;
   margin-bottom: -2px;
 }
 
+.fc .fc-more-link{
+  font-size: .85em;
+  overflow: hidden;
+	margin: 1px;
+  white-space: nowrap;
+}
 
+.fc .fc-daygrid-day-bottom{
+  margin-bottom: -2px;
+}
 
 
 
@@ -1589,6 +1610,11 @@ margin: 0px;
       font-size: 93%;
       padding: 0;
     }
+
+    .fc .fc-more-link{
+      font-size: .65em;
+    }
+
     /* 날짜 숫자 */
     .fc .fc-daygrid-day-number {
       font-size: 65%;
@@ -1716,6 +1742,8 @@ margin: 0px;
       margin-top: 2px;
       margin-bottom: -1px;
     }
+
+
 
   }
   
