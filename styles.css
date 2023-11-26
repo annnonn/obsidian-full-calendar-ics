@@ -692,9 +692,11 @@ a.fc-event:hover {
   position: relative;
   z-index: 1;
 }
+
 .fc .fc-daygrid-day.fc-day-today {
   background-color: rgba(255, 220, 40, 0.15);
   background-color: var(--fc-today-bg-color, rgba(255, 220, 40, 0.15));
+  /* background-color: var(--interactive-accent); */
 }
 .fc .fc-daygrid-day-frame {
   position: relative;
@@ -1346,10 +1348,11 @@ a.fc-event:hover {
 .fc .fc-daygrid-day-top {
 	flex-direction: row; /* 일자를 왼쪽으로 정렬함 */
 }
-.fc .fc-day-today {
-	background-color: rgba(100,140,200,0.25) !important ; /* 오늘 날짜 배경 변경*/
+/*오늘 날짜 배경색 강조*/
+.fc .fc-daygrid-day.fc-day-today {
+	background-color: rgba(100,140,200,0.25) ;
+  /* background-color: rgba(161,149,104,0.5) ; */
 }
-
 
   /* 라이트모드 */
   .theme-light {
@@ -1405,6 +1408,12 @@ a.fc-event:hover {
         color: rgb(0, 0, 0);
       }
 
+      /*오늘 날짜 숫자*/
+      .fc .fc-day-today .fc-daygrid-day-number {
+        font-weight: bold;
+        color: black;
+      }
+
   }
   /* 다크모드 */
   .theme-dark {
@@ -1457,6 +1466,12 @@ a.fc-event:hover {
 
       .fc .fc-more-link{
         color: rgb(255, 255, 255);
+      }
+
+      /*오늘 날짜 숫자*/
+      .fc .fc-day-today .fc-daygrid-day-number {
+        font-weight: bold;
+        color: white;
       }
 
   }
