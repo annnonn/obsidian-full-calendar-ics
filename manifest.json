@@ -4,8 +4,6 @@
 	"version": "1.0.0",
 	"minAppVersion": "0.16.3",
 	"description": "Manage events on calendar and export to ICS file.",
-	"author": "Annnonn",
-	"authorUrl": "https://davi.sh",
-	"fundingUrl": "https://ko-fi.com/davish",
+	"author": "Anon",
 	"isDesktopOnly": false
 }
