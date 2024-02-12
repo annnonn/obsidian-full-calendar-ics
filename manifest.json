@@ -1,6 +1,6 @@
 {
 	"id": "full-calendar-ics", 
-	"name": "Full Calendar ICS",
+	"name": "풀 캘린더 ICS",
 	"version": "1.0.0",
 	"minAppVersion": "0.16.3",
 	"description": "Manage events on calendar and export to ICS file.",
